@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;1,300;1,500&display=swap');
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #333;
+  color: #fff;
+}
+h1 {
+  text-align: center;
+  font-size: 3em;
+}
+p.p1 {
+  text-align: center;
+}
+p {
+  text-align: justify;
+  font-size: 1em;
+}
+ul > li {
+  width: 70vw;
+  font-size: .9em;
+  margin: auto;
+}
+abbr {
+  text-decoration: none;
+}
+p > abbr {
+  text-decoration: none;
+  color: #fff;
+}
+p > abbr {
+  text-decoration: underline;
+}
+a.links {
+  text-decoration: none;
+  color: #fff;
+}
+a.links:hover {
+  text-decoration: underline;
+}
+input.bot {
+  font-weight: bold;
+  background: orange;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 4px;
+}
+input.bot:hover {
+  background: rgb(163, 107, 1);
+  color: rgb(224, 223, 223);
+}
+input.boxtext {
+  text-align: center;
+  font-weight: bold;
+  background: orange;
+  color: #fff;
+  border-radius: 5px;
+  padding: 4px;
+}
+img {
+  display: block;
+  width: 44vw;
+  border: 6px solid orange;
+  border-radius: 10px;
+  margin: auto;
+}
+p.foot {
+  text-align: center;
+  font-size: .9em;
+}
+p.foot > a {
+  text-decoration: none;
+  color: #fff;
+}
+p.foot > a:hover {
+  text-decoration: underline;
+}
