@@ -19,5 +19,6 @@ function Ver() {
       <li><abbr title="Volte a sessão anterior"><a class="links" href="index.html">Voltar</a></abbr></li>
       </ul>
     </p>`
+    nome.value = ''
   }
 }
