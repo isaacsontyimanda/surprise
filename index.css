@@ -60,6 +60,11 @@ input.boxtext {
   border-radius: 5px;
   padding: 4px;
 }
+img.fel {
+  width: 100px;
+  border: none;
+  border-radius: 0px;
+}
 img {
   display: block;
   width: 44vw;
